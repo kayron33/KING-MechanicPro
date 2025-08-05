@@ -86,12 +86,12 @@ const TestimonialsSection = () => {
 
         {/* Statistics Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {[
-            { label: 'Happy Clients', value: stats.totalClients, symbol: '+' },
-            { label: 'Satisfaction Rate', value: stats.satisfactionRate, symbol: '%' },
-            { label: 'Repairs Completed', value: stats.completedRepairs, symbol: '+' },
-            { label: 'Certified Mechanics', value: stats.certifiedMechanics, symbol: '' }
-          ].map((stat, index) => (
+            {[
+              { label: 'Happy Clients', value: stats.totalClients, symbol: '+' },
+              { label: 'Satisfaction Rate', value: stats.satisfactionRate, symbol: '%' },
+              { label: 'Repairs Completed', value: stats.completedRepairs, symbol: '+' },
+              { label: 'Certified Mechanics', value: stats.certifiedMechanics, symbol: '' }
+            ].map((stat) => (
             <div 
               key={stat.label} 
               className="bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-300 hover:scale-105"
