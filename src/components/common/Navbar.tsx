@@ -50,6 +50,30 @@ const Navbar = () => {
               </Link>
             ))}
             <Link
+              to="/chat"
+              className={`font-medium transition-colors hover:text-orange-500 ${
+                isScrolled ? 'text-slate-700' : 'text-white'
+              }`}
+            >
+              Chat
+            </Link>
+            <Link
+              to="/login"
+              className={`font-medium transition-colors hover:text-orange-500 ${
+                isScrolled ? 'text-slate-700' : 'text-white'
+              }`}
+            >
+              Login
+            </Link>
+            <Link
+              to="/register"
+              className={`font-medium transition-colors hover:text-orange-500 ${
+                isScrolled ? 'text-slate-700' : 'text-white'
+              }`}
+            >
+              Register
+            </Link>
+            <Link
               to="/booking"
               className="bg-orange-500 text-white px-4 py-2 rounded-md font-medium hover:bg-orange-600 transition-colors"
             >
@@ -82,6 +106,27 @@ const Navbar = () => {
                   {item}
                 </Link>
               ))}
+              <Link
+                to="/chat"
+                className="text-slate-800 font-medium text-lg hover:text-orange-500 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Chat
+              </Link>
+              <Link
+                to="/login"
+                className="text-slate-800 font-medium text-lg hover:text-orange-500 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Login
+              </Link>
+              <Link
+                to="/register"
+                className="text-slate-800 font-medium text-lg hover:text-orange-500 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Register
+              </Link>
               <Link
                 to="/booking"
                 className="bg-orange-500 text-white py-3 rounded-md font-medium hover:bg-orange-600 transition-colors text-center"

@@ -1,4 +1,4 @@
-import { Service, TeamMember, GalleryImage, FAQ } from './types';
+import { Service, TeamMember, GalleryImage } from './types';
 
 // Services Data
 export const services: Service[] = [
@@ -25,7 +25,7 @@ export const services: Service[] = [
       },
       {
         question: 'Will the diagnostic test fix my check engine light?',
-        answer: 'The diagnostic test identifies the cause of the check engine light but doesn\'t fix the issue itself. After diagnosing the problem, we'll provide repair recommendations.'
+        answer: 'The diagnostic test identifies the cause of the check engine light but doesn\'t fix the issue itself. After diagnosing the problem, we\'ll provide repair recommendations.'
       }
     ]
   },
@@ -133,7 +133,7 @@ export const services: Service[] = [
       },
       {
         question: 'How do I know when I need new tires?',
-        answer: 'You should replace tires when the tread depth reaches 2/32 of an inch (common test is using a penny), if there's sidewall damage, bulges, or if the tires are more than 6 years old regardless of tread wear.'
+        answer: 'You should replace tires when the tread depth reaches 2/32 of an inch (common test is using a penny), if there\'s sidewall damage, bulges, or if the tires are more than 6 years old regardless of tread wear.'
       }
     ]
   },
